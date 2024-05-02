@@ -191,7 +191,7 @@ void Human::incScore() {
 //Xuất thông tin của người chơi
 void Human::display(){
     cout << "[" << getName() << "]" << endl;
-    cout << "Diem: " << getScore();
+    cout << "Diem: " << getScore() << endl;
 }
 
 //Thông báo chiến thắng của người chơi và thực hiện nâng điểm cho người chơi đó
